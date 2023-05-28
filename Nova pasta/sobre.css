@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+/* Estilização para as imagens dos desenvolvedores */
+.developer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.developer img {
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: 150px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 50%; /* Transforma a imagem em um círculo */
+    object-fit: cover; /* Redimensiona a imagem para preencher o círculo */
+    object-position: center; /* Centraliza a imagem dentro do círculo */
+}
+
+body {
+    background: #1B2029;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+header h1 {
+    color: #8880FE;
+    font-size: 3rem; /* Ajuste o tamanho do texto "Sobre" conforme necessário */
+}
+
+section.images {
+    background: linear-gradient(45deg, #E8CBC0, #636FA4);
+}
+
+h1, h2 {
+    color: #8880FE;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8880FE;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.back-button:hover {
+  background-color: #5952d4;
+}
+

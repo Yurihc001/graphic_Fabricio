@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Create Account</h1>
+        <div class="social-media">
+            <a href="#">
+                <img src="assets/google.png" alt="Google">
+            </a>
+            <a href="#">
+                <img src="assets/facebook.png" alt="Facebook">
+            </a>
+            <a href="#">
+                <img src="assets/linkedin.png" alt="Linkedin">
+            </a>
+        </div>
+
+        <div class="alternative">
+            <span>OR</span>
+        </div>
+
+        <form action="">
+            <label for="name">
+                <span>Name</span>
+                <input type="text" id="name" name="name">
+            </label>
+
+            <label for="email">
+                <span>E-mail</span>
+                <input type="email" id="email" name="email">
+            </label>
+            
+            <label for="password">
+                <span>Password</span>
+                <input type="password" id="password" name="password">
+            </label>
+
+            <input type="submit" class="Sing Up">
+            <button onclick="window.location.href='outra-tela.html'">Ir para outra tela</button>
+        </form>
+    </main>
+    <section class="images">
+        <img src="assets/mobile.svg" alt="Mobile">
+        <div class="circle"></div>
+    </section>
+    
+</body>
+</html>
+
+
+
+
+
+
+essa parte é responsavel por mandar para outra tela <form action="Menu.html"></form>
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sobre.css">
+</head>
+<h1>Sobre</h1>
+<h2>Tema</h2>
+<p>É para organizar arquivos/livros - autor e título</p>
+<h2>objetivo</h2>
+<p>O software (Sem nome definido ainda), tem como objetivo o escaneamento de diretórios que contenha e-books, para a elaboração de um catálogo. Dessa maneira se tem um maior controle dos livros, como também saber quais livros estão presentes no acervo.</p>
+<img src="Yuri.jpg" alt="Yuri">
+<img src="Henrique.jpg" alt="Henrique">
+<body>
+    
+</body>
+</html> -->
